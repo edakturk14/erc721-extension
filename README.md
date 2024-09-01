@@ -11,7 +11,7 @@ The ERC-721 token contract is implemented using the ERC-721 token implementation
 You can install any of the extensions in this repository by running the following command:
 
 ```bash
-npx create-eth@latest -e edakturk14/se2-erc721-extension
+npx create-eth@latest -e edakturk14/erc721-extension
 ```
 
 ## 🚀 Setup extension
