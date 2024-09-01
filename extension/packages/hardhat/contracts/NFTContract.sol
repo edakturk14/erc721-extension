@@ -37,10 +37,9 @@ contract NFTContract is ERC721Enumerable {
 
     /**
      * @dev Returns the token URI for a given token ID
-     * @param tokenId The token ID
      * @return The token URI
      */
-    function tokenURI(uint256 tokenId) public view override returns (string memory) {
+    function tokenURI() public pure returns (string memory) {
         string memory svg = generateSVG();
         string memory json = string(
             abi.encodePacked(
